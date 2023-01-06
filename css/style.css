@@ -25,11 +25,11 @@ header {
 }
 
 header .tittle {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-top: 3rem;
     font-family: 'Moon Dance', cursive;
     text-align: center;
-    color: rgb(84, 115, 252);
+    color: rgb(84, 185, 252);
 }
 
 main {
@@ -39,14 +39,14 @@ main {
 }
 
 main .subtittle {
-    margin-top: 4rem;
+    margin-top: 4.5rem;
     margin-bottom: 1rem;
     margin-left: 3rem;
     margin-right: 3rem;
     color: lightgreen;
     justify-content: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 main .options {
