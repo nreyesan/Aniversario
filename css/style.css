@@ -30,12 +30,44 @@ header .tittle {
 
 main {
     width: 100%;
-    height: 75vh;
+    height: 80vh;
 }
 
 main .subtittle {
-    margin: 4rem 3rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     color: lightgreen;
     justify-content: center;
     text-align: center;
+}
+
+main .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+main section .surprise {
+    border: 0.1rem solid lightblue;
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .playlist {
+    border: 0.1rem solid lightblue;
+    width: 30vw;
+    height: 20vh;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
