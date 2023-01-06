@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url('/assets/fondo.jpg');
+    background-image: url('https://cdn.statusqueen.com/mobilewallpaper/thumbnail/love2-956.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -21,16 +21,17 @@ header {
 }
 
 header .tittle {
-    font-size: 2.8rem;
+    font-size: 3rem;
     margin-top: 3rem;
     font-family: 'Moon Dance', cursive;
     text-align: center;
-    color: lightskyblue;
+    color: rgb(84, 115, 252);
 }
 
 main {
     width: 100%;
     height: 80vh;
+    font-family: 'Sevillana', cursive;
 }
 
 main .subtittle {
@@ -41,6 +42,7 @@ main .subtittle {
     color: lightgreen;
     justify-content: center;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 main .options {
@@ -53,8 +55,9 @@ main .options {
 
 main section .surprise {
     border: 0.1rem solid lightblue;
-    width: 30vw;
+    width: 40vw;
     height: 20vh;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,11 +66,21 @@ main section .surprise {
 
 main section .playlist {
     border: 0.1rem solid lightblue;
-    width: 30vw;
+    width: 40vw;
     height: 20vh;
-    margin-top: 1.5rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.surprise .img-surprise img {
+    width: 25vw;
+    height: 15vh;
+}
+
+.playlist .img-playlist img {
+    width: 40vw;
+    height: 15vh;
 }
