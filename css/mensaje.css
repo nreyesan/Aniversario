@@ -14,3 +14,48 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+
+.fondo {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-image: url('/assets/perga-abierto.png');
+    background-size: 100% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    align-items: center;
+}
+
+.mensaje {
+    position: absolute;
+    top: 40vw;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Great Vibes';
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: 'Sevillana', cursive;
+    width: 45vw;
+    height: 5vh;
+    background-color: rgb(31, 0, 66);
+    border-radius: 5rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: aquamarine;
+}
