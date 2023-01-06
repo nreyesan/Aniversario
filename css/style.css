@@ -116,4 +116,14 @@ main section .playlist {
 footer {
     height: 20vh;
     background: linear-gradient(transparent, rgb(31, 0, 66));
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+}
+
+footer .message {
+    padding: 3rem;
+    font-size: 3rem;
+    font-family: 'Sevillana', cursive;
 }
