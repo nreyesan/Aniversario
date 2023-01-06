@@ -15,7 +15,7 @@ a {
 }
 
 body {
-    background-image: url('https://cdn.statusqueen.com/mobilewallpaper/thumbnail/love2-956.jpg');
+    background-image: url('/assets/fondo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -33,6 +33,7 @@ header nav {
 header nav .main-nav {
     width: 100%;
     height: auto;
+    margin-top: 2rem;
     display: flex;
     list-style: none;
     align-items: center;
@@ -52,3 +53,41 @@ header nav .main-nav .back {
     width: 20vw;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.pergamino img {
+    width: 50vw;
+}
+
+.main-container .abrir {
+    padding: 1rem;
+    border: 0.1 solid rgb(53, 0, 66);
+    background: rgb(31, 0, 66);
+    border-radius: 5rem;
+    margin-top: 2rem;
+    font-family: 'Sevillana', cursive;
+    font-size: 2rem;
+
+}
+
+.regalo {
+    margin-top: 5rem;
+}
+
+.regalo img {
+    width: 70vw;
+}
+
+footer {
+    height: 20vh;
+    background: linear-gradient(transparent, rgb(31, 0, 66));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
