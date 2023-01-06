@@ -34,7 +34,7 @@ header .tittle {
 
 main {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     font-family: 'Sevillana', cursive;
 }
 
@@ -96,11 +96,24 @@ main section .playlist {
 }
 
 .surprise .surprise-tittle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0.5rem;
 }
 
 .playlist .playlist-tittle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0.5rem;
+}
+
+.surprise .surprise-tittle a {
+    color: aquamarine;
+}
+
+.playlist .playlist-tittle a {
+    color: aquamarine;
+}
+
+footer {
+    height: 20vh;
+    background: linear-gradient(transparent, rgb(31, 0, 66));
 }
