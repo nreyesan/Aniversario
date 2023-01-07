@@ -27,8 +27,8 @@ body {
 .mensaje {
     position: absolute;
     top: 25vw;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
     font-size: 2rem;
     color: black;
     font-family: 'Great Vibes';
